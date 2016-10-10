@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title="Todos os campeonatos" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Campeonato Brasileiro" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Campeonato Espanhol" />
+        <item
+            android:id="@+id/nav_manage"
+            android:title="Campeonato Inglês" />
+    </group>
+
+    <item android:title="Configurações">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Perfil" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contato" />
+        </menu>
+    </item>
+
+</menu>

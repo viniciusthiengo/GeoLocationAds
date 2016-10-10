@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/soccer_field"
+    tools:context="br.com.thiengo.geolocationads.GameActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#cc103b00"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <ImageView
+                android:id="@+id/img_home"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/goals_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@+id/vs"
+                android:layout_toStartOf="@+id/vs"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/vs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="x"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/goals_visitan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toEndOf="@+id/vs"
+                android:layout_toRightOf="@+id/vs"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/img_visitant"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerCrop" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:id="@+id/comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:background="#cc103b00"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="À medida que o número de jogos vai diminuindo, o líder Palmeiras vê aumentar sua chance de conquistar o Campeonato Brasileiro. Segundo o site Infobola.com.br, do matemático Tristão Garcia, com a vitória por 2 a 0 sobre o lanterna América-MG, no Estádio do Café, em Londrina, a probabilidade de o Verdão ser campeão passou de 63% para 74%. O Flamengo, por sua vez, reduziu de 23% para 19% as suas possibilidades de levantar a taça após a vitória por 3 a 0 sobre o penúltimo colocado Santa Cruz, no Pacaembu, em São Paulo. Faltando nove rodadas para o término da competição, a diferença entre as equipes segue de três pontos (60 a 57). Além dos clubes paulista e carioca, outros dois times seguem na briga pelo título com chances reduzidas: Atlético-MG (6%) e Santos (1%)."
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</ScrollView>
