@@ -4,7 +4,7 @@ Projeto Java Android do artigo [Estratégia de Anúncios com In Loco Media no An
 
 Artigo que apresenta em detalhes a API de anúncios da In Loco Media.
 
-Está que é uma startup de anúncios mobile que promote maior rentabilidade do que outras APIs de anúncios concorrentes em mercado.
+Está que é uma startup de anúncios mobile que promete maior rentabilidade do que outras APIs de anúncios concorrentes em mercado.
 
 <img src="https://www.thiengo.com.br/img/post/normal/i1udgj0co0252kti0r8c13cis743ebdd9a763eb9db7bd63a878a5114c3.jpg" width="200" alt="Tela do aplicativo Android 'Resultados Futebol' com um banner da In Loco Media">
 
